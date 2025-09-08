@@ -5,16 +5,12 @@ namespace App\Http\Controllers;
 use App\Http\Requests\StorePostRequest;
 use App\Http\Requests\UpdatePostRequest;
 use App\Http\Resources\PostResource;
-use App\Models\Post;
 use App\Services\PostService;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Log;
-use Illuminate\Support\Facades\Storage;
-
-use function PHPUnit\Framework\arrayHasKey;
 
 class PostController extends Controller
 {
@@ -101,8 +97,8 @@ class PostController extends Controller
     public function getApplicants(string $id)
     {
         try {
-            $applicants = json_decode(Storage::get('mocks/applicants.json'));
-            return response()->json(['applicants' => Arr::random($applicants, 5)]);
+            $applicants = json_decode(file_get_contents(public_path('mocks/applicants.json')));
+            return response()->json(['data' => Arr::random($applicants, 5)]);
         } catch (Exception $e) {
             Log::debug($e->getMessage());
             Log::debug($e->getTraceAsString());

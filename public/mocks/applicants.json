@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Jane Doe",
+    "profession": "Software Engineer",
+    "description": "Expert in cloud computing and large-scale system design. Specializes in Python and Go.",
+    "rate": 75.50
+  },
+  {
+    "id": 2,
+    "name": "John Smith",
+    "profession": "UX Designer",
+    "description": "Focuses on creating intuitive user interfaces and user-centric designs. Proficient in Figma and Sketch.",
+    "rate": 60.00
+  },
+  {
+    "id": 3,
+    "name": "Emily White",
+    "profession": "Data Scientist",
+    "description": "Experienced in machine learning, statistical modeling, and data visualization. Uses R and Python.",
+    "rate": 85.25
+  },
+  {
+    "id": 4,
+    "name": "Michael Brown",
+    "profession": "Project Manager",
+    "description": "Certified PMP with extensive experience in agile methodologies and team leadership.",
+    "rate": 90.75
+  },
+  {
+    "id": 5,
+    "name": "Sarah Miller",
+    "profession": "Frontend Developer",
+    "description": "Specializes in building responsive web applications with React and Vue.js. Passionate about performance optimization.",
+    "rate": 68.00
+  },
+  {
+    "id": 6,
+    "name": "Chris Davis",
+    "profession": "DevOps Engineer",
+    "description": "Automates deployment pipelines and manages infrastructure with Docker, Kubernetes, and AWS.",
+    "rate": 95.00
+  },
+  {
+    "id": 7,
+    "name": "Jessica Garcia",
+    "profession": "Content Strategist",
+    "description": "Develops and executes content plans for digital marketing campaigns. Skilled in SEO and analytics.",
+    "rate": 55.50
+  },
+  {
+    "id": 8,
+    "name": "Daniel Wilson",
+    "profession": "Cloud Architect",
+    "description": "Designs and implements scalable and secure cloud solutions. Certified in Azure and Google Cloud.",
+    "rate": 110.00
+  },
+  {
+    "id": 9,
+    "name": "Laura Martinez",
+    "profession": "Mobile App Developer",
+    "description": "Builds native and cross-platform applications for iOS and Android. Proficient in Swift and React Native.",
+    "rate": 80.25
+  },
+  {
+    "id": 10,
+    "name": "Kevin Rodriguez",
+    "profession": "Cybersecurity Analyst",
+    "description": "Identifies vulnerabilities and implements security measures to protect corporate networks and data.",
+    "rate": 120.00
+  }
+]
